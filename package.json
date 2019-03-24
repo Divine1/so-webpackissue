@@ -1,0 +1,20 @@
+{
+  "name": "tsprog1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack" : "webpack",
+    "dev" : "npm run webpack -- --mode development",
+    "prod" : "npm run webpack -- --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
